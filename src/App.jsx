@@ -4,8 +4,6 @@ import { useState } from "react";
 function App() {
   const [task, setTask] = useState("");
   const [tasks, setTasks] = useState([]);
-
-  // Add a new task
   function addTask(e) {
     e.preventDefault();
 
@@ -108,3 +106,4 @@ function App() {
 }
 
 export default App;
+n
